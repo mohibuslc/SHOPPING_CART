@@ -55,8 +55,9 @@ function productCaseTotal(isChange){
 
         caseNewCount= amountBalanceInt +1 ;
     } 
-    if(isChange == false && caseNewCount>0){
-        
+
+    if(isChange == false && caseNewCount > 0) {
+
         caseNewCount= amountBalanceInt -1 ;
 
     }
